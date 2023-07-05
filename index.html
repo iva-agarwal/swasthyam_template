@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <section id="home">
+      <nav>
+
+        <ul>
+          <li> <img src="images/swasthyam_hindi_logo-removebg-preview (1) (1).png"
+              alt
+              style="height: 80px;width: 100px; margin-right: 350px; opacity: 0.8;"></li>
+          <li>HOME</li>
+          <a href="#services"><li>SERVICES</li></a>
+          <a href="#tests"><li>TESTS</li></a>
+          <a href="#packages"><li>PACKAGES</li></a>
+          <a href="#gallery"><li>GALLERY</li></a>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+      <div>
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Ratione magni aspernatur veniam aliquid <br> corporis
+          tenetur
+          aliquam ex eos omnis consectetur.</p>
+        <button>Know More</button>
+      </div>
+    </section>
+    <section id="services">
+      <h1 class="heading">Services</h1>
+      <div class="container">
+        <div class="top">
+          <div>
+            <h2 class="h-content"><i class="fa-solid fa-notes-medical fa-2x"></i>
+              Online Reporting</h2>
+            <p class="content">Lorem, ipsum dolor sit amet consectetur
+              adipisicing
+              elit. Ut sit officiis qui, voluptatem voluptatibus
+              quaerat consequatur facilis minima quidem harum est
+              laudantium placeat possimus modi voluptatum in id.
+              Ipsam, aut!</p>
+          </div>
+          <div>
+            <h2 class="h-content"><i class="fa-solid fa-user-nurse fa-2x"></i>Sample
+              Collection</h2>
+            <p class="content">Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Ut sit officiis
+              qui, voluptatem voluptatibus quaerat consequatur
+              facilis minima quidem harum est laudantium placeat
+              possimus modi voluptatum in id. Ipsam, aut!</p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div>
+            <h2 class="h-content"><i class="fa-solid fa-vials fa-2x"></i>Fully
+              Automated</h2>
+            <p class="content">Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Ut sit officiis qui,
+              voluptatem voluptatibus quaerat consequatur facilis
+              minima quidem harum est laudantium placeat possimus
+              modi voluptatum in id. Ipsam, aut!</p>
+          </div>
+          <div>
+            <h2 class="h-content"><i class="fa-solid fa-suitcase-medical fa-2x"></i>Health
+              Camps</h2>
+            <p class="content">Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Ut sit officiis qui,
+              voluptatem voluptatibus quaerat consequatur facilis
+              minima quidem harum est laudantium placeat possimus
+              modi voluptatum in id. Ipsam, aut!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tests">
+      <h1 class="heading">Tests</h1>
+      <div class="cover">
+        <button class="left" onclick="rightScroll()"><i
+            class="fa-solid fa-circle-arrow-left fa-2x"
+            style="color: rgba(46,204,113);"></i></button>
+        <div class="card-container">
+          <div class="card">
+
+            <p>Complete Blood Count (CBC)</p>
+          </div>
+          <div class="card">
+
+            <p>C-Reactive Protein (CRP), Quantitative </p>
+          </div>
+          <div class="card">
+
+            <p>Creatine Phosphokinase MB (CPK MB)</p>
+          </div>
+          <!-- Add more cards as needed -->
+          <div class="card">
+
+            <p>Erythrocyte Sedimentation Rate (ESR)</p>
+          </div>
+          <div class="card">
+
+            <p>Follicle Simulating Hormone (FSH) </p>
+          </div>
+          <div class="card">
+
+            <p>Glucose Fasting (BSF) </p>
+          </div>
+          <div class="card">
+            <p>HbA1C (Glycosylated Haemoglobin)</p>
+          </div>
+          <div class="card">
+
+            <p>Iron Studies</p>
+          </div>
+          <div class="card">
+
+            <p>Kidney Function Test (KFT) </p>
+          </div>
+          <div class="card">
+
+            <p>Lipid Profile</p>
+          </div>
+        </div>
+        <button class="right" onclick="leftScroll()"><i
+            class="fa-solid fa-circle-arrow-right fa-2x"
+            style="color: rgba(46,204,113);"></i></button>
+      </div>
+      <script>
+            function leftScroll() {
+              const left = document.querySelector(".card-container");
+              left.scrollBy(400, 0);
+            }
+            function rightScroll() {
+              const right = document.querySelector(".card-container");
+              right.scrollBy(-400, 0);
+            }
+      </script>
+    </section>
+    <section id="packages">
+      <h1 class="heading">Packages</h1>
+      <div class="container">
+        <div>
+          <img src="images/4960556.jpg" alt style="height: 500px; width: 500px;">
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            aspernatur doloribus illum inventore error iure dolores aperiam.
+            Necessitatibus, adipisci dignissimos. Vel eius animi in excepturi a
+            id laudantium, impedit omnis.
+          </p>
+          <button>Know more</button>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <h1 class="heading">Gallery</h1>
+      <div class="img-container">
+        <!-- button foreach group -->
+        <div id="filtering">
+          <button class="bttn active"
+            onclick="filter('all')">
+            Show all
+          </button>
+          <button class="bttn"
+            onclick="filter('Pathology')">
+            Pathology
+          </button>
+          <button class="bttn"
+            onclick="filter('Sonography')">
+            Sonography
+          </button>
+          <button class="bttn"
+            onclick="filter('Reception')">
+            Reception
+          </button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column Pathology">
+
+            <img src="images/sample.jpg" style="width:100%">
+
+          </div>
+          <div class="column Sonography">
+
+            <img src="images/sample.jpg" style="width:100%">
+
+          </div>
+          <div class="column Sonography">
+
+            <img src="images/sample.jpg" style="width:100%">
+
+          </div>
+          <div class="column Reception">
+
+            <img src="images/sample.jpg" style="width:100%">
+
+          </div>
+          <div class="column Reception">
+
+            <img src="images/sample.jpg" style="width:100%">
+
+          </div>
+          <div class="column Reception">
+
+            <img src="images/sample.jpg" style="width:100%">
+
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div><h1 class="contact">Swasthyam</h1>
+            <p class="contact">
+              <i class="fa-solid fa-location-dot fa-2x"></i>
+              4-C Sadul Ganj, Bikaner <br>
+              <i class="fa-solid fa-phone fa-2x" ></i>
+              +91-3582588451 <br>
+              <i class="fa-solid fa-envelope fa-2x"></i>
+              swasthyambkn@gmail.om
+              </p>
+          </div>
+          <div class="contact">
+            Find us: <br>
+            <i class="fa-solid fa-envelope fa-2x"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-square-instagram fa-2x"></i>
+          </div>
+        </div>
+      </section>
+      <script src="scrip.js"></script>
+    </body>
+  </html>
