@@ -50,6 +50,9 @@ li:hover{
     text-decoration: underline;
     text-underline-offset: 10px;
 }
+li:a{
+    text-decoration:none;
+}
 #home>div{
     margin-top: 200px;
     text-align: center;
